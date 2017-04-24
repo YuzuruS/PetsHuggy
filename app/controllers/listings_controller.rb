@@ -46,7 +46,7 @@ class ListingsController < ApplicationController
 
   end
   def photos
-
+    @photo = Photo.new
   end
   def calendar
 
