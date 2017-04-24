@@ -15,4 +15,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require toastr
+//= require dropzone
 //= require_tree .
