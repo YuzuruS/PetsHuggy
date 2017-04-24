@@ -1,5 +1,6 @@
 class Listing < ActiveRecord::Base
   belongs_to :user
+  has_many :photos
 
   HOME_TYPE_OPTION = {
     "一軒家" => "一軒家",
